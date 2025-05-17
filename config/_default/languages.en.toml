@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "Intelligence Hub"
 
 [params]
   displayName = "English"
@@ -18,6 +18,6 @@ title = "Blowfish"
   headline = "From Exploration to Enlightenment."
   bio = "A powerful, lightweight theme for Hugo."
   links = [
-    { x-twitter = "https://twitter.com/burufugu" },
-    { github = "https://github.com/nunocoracao/blowfish" },
+    { instagram = "https://instagram.com/intelligencevenue" },
+    { github = "https://github.com/leadst0rm" },
   ]
