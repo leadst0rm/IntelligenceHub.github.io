@@ -16,8 +16,4 @@ title = "Intelligence Hub"
   email = ""
   image = "img/blowfish_logo.png"
   headline = "From Exploration to Enlightenment."
-  bio = "A powerful, lightweight theme for Hugo."
-  links = [
-    { instagram = "https://instagram.com/intelligencevenue" },
-    { github = "https://github.com/leadst0rm" },
-  ]
+#  bio = "A powerful, lightweight theme for Hugo."
