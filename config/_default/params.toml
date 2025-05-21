@@ -21,8 +21,8 @@ disableImageOptimization = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-defaultBackgroundImage = "/img/background.svg"
-defaultFeaturedImage = "/img/traffic.svg"
+defaultBackgroundImage = "/img/traffic.svg"
+defaultFeaturedImage = "/img/fireflies.svg"
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -39,22 +39,22 @@ smartTOCHideUnfocusedChildren = false
   showScrollToTop = true
 
 [homepage]
-  layout = "custom" # valid options: page, profile, hero, card, background, custom
-  # homepageImage = "/img/iceland.jpg" # used in: hero, and card
-  showRecent = false
-  showRecentItems = 6
+  layout = "background" # valid options: page, profile, hero, card, background, custom
+  homepageImage = "/img/traffic.svg" # used in: hero, and card
+  showRecent = true
+  showRecentItems = 4
   showMoreLink = true
-  showMoreLinkDest = "docs"
+  showMoreLinkDest = "posts"
   cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background
 
 [article]
-  showDate = false
-  showViews = false
-  showLikes = false
+  showDate = true
+  showViews = true
+  showLikes = true
   showDateOnlyInArticle = false
-  showDateUpdated = false
+  showDateUpdated = true
   showAuthor = true
   # showAuthorBottom = false
   showHero = true
@@ -62,7 +62,7 @@ smartTOCHideUnfocusedChildren = false
   layoutBackgroundBlur = true # only used when heroStyle equals background
   showBreadcrumbs = true
   showDraftLabel = true
-  showEdit = true
+  showEdit = false
   editURL = "https://github.com/nunocoracao/blowfish/tree/main/exampleSite/content"
   editAppendPath = true
   seriesOpened = false
@@ -76,7 +76,7 @@ smartTOCHideUnfocusedChildren = false
   showTaxonomies = true 
   showAuthorsBadges = true 
   showWordCount = false
-  sharingLinks = [ "linkedin", "twitter", "bluesky", "reddit", "whatsapp", "telegram", "pinterest", "facebook", "email"]
+  sharingLinks = [ "linkedin", "twitter", "reddit", "whatsapp", "telegram", "pinterest", "facebook", "email"]
   showZenMode = true
 
 [list]
@@ -120,7 +120,7 @@ smartTOCHideUnfocusedChildren = false
   cardView = true
   cardViewScreenWidth = false
   
-[firebase]
+#[firebase]
   #apiKey = "AIzaSyB5tqlqDky77Vb4Tc4apiHV4hRZI18KGiY"
   #authDomain = "blowfish-21fff.firebaseapp.com"
   #projectId = "blowfish-21fff"
@@ -144,12 +144,12 @@ smartTOCHideUnfocusedChildren = false
   # token = "XXXXXX"
   # enableTrackEvent = false
 
-[buymeacoffee]
-  identifier = "nunocoracao"
-  globalWidget = true
-  globalWidgetMessage = ""
-  globalWidgetColor = "#FFDD00"
-  globalWidgetPosition = "Right"
+#[buymeacoffee]
+#  identifier = "nunocoracao"
+#  globalWidget = true
+#  globalWidgetMessage = ""
+#  globalWidgetColor = "#FFDD00"
+#  globalWidgetPosition = "Right"
 
 [verification]
   # google = ""
